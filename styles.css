@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    background-color: burlywood;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    justify-items: center;
+
+}
+h3{
+    display: inline-flex;
+}
+.Tip_consul{
+    display: block;
+    margin: 10px;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    height: 300px;
+    width: 300px;
+    font-size: 18px;
+    border-radius: 20px;
+    padding: 10px;
+
+}
+#Total_person{
+    display: flex;
+    justify-content:end;
+    position: relative;
+    margin-top: 10px;
+    padding-right: 10px;
+    border-radius: 20px;
+   
+}
+input{
+    border-radius: 20px;
+    height: 20px;
+    text-align: center;
+}
+.Tital_per_person{
+    display: flex;
+    justify-content: end;
+    padding-right: 5px;
+    position: relative;
+    margin-top: 70px;
+}
+#people{
+    display: flex;
+    position: absolute;
+    margin-top: 10px;
+    justify-content: start;
+    padding-right: 5px;
+    border-radius: 20px;
+}
+#people_title{
+    display: flex;
+    position: absolute;
+    margin-top: 10px;
+    justify-content: start;
+    padding-right: 5px;
+}
+button{
+    display: flex;
+    border-radius: 20px;
+    font-size: 20px;
+    height: 32px;
+    width: 100px;
+    text-align: center;
+    justify-content: center;
+    border: 3px solid green;
+    color:green;
+}
+button:hover{
+    opacity: .5;
+}
+@media all and (max-width: 768px){
+    body{
+        background-color: burlywood;
+        background-repeat: no-repeat;
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+    }
+    .Tip_consul{
+        display: block;
+        margin: 10px;
+        background-color: rgba(0, 0, 0, 0.8);
+        color: white;
+        height: 300px;
+        width: 300px;
+        font-size: 18px;
+        border-radius: 20px;
+        padding: 10px;
+        margin-top: 150px;
+        margin-left: 3%;
+    }
+
+}
