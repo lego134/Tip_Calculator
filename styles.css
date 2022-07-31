@@ -44,8 +44,7 @@ input{
     display: flex;
     justify-content: end;
     padding-right: 5px;
-    position: relative;
-    margin-top: 70px;
+    margin-top: 20px;
 }
 #people{
     display: flex;
@@ -72,17 +71,54 @@ button{
     justify-content: center;
     border: 3px solid green;
     color:green;
+    position: relative;
 }
 button:hover{
     opacity: .5;
 }
+#Plus{
+    display: inline-block;
+    border-radius: 50%;
+    font-size: 20px;
+    height: 30px;
+    width: 30px;
+    text-align: center;
+    justify-content: center;
+    border: 3px solid red;
+    color:red;
+    position: relative;
+    margin-right: 5px;
+    margin-top: 5px;
+}
+.title_people{
+    display: block;
+}
+#people{
+    display: inline-block;
+    text-align: center;
+    position: relative;
+}
+#minus{
+    display: inline-block;
+    border-radius: 50%;
+    font-size: 20px;
+    height: 30px;
+    width: 30px;
+    text-align: center;
+    justify-content: center;
+    border: 3px solid red;
+    color:red;
+    position: relative;
+    margin-top: 5px;
+}
 @media all and (max-width: 768px){
     body{
-        background-color: burlywood;
-        background-repeat: no-repeat;
         display: flex;
-        align-items: flex-start;
-        justify-content: flex-start;
+        height: 100%;
+        width: 100%;
+        justify-content: center;
+        justify-items: center;
+        background-color: burlywood;
     }
     .Tip_consul{
         display: block;
